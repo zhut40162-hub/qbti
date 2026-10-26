@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#C93468">
+  <title>QBTI · 感情人格测试</title>
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <button class="brand" id="brand-home" aria-label="QBTI 首页"><span class="brand-icon">Q</span><span>QBTI<small>感情人格测试</small></span></button>
+    <button class="text-button" id="nav-atlas" hidden>人格图鉴 <span aria-hidden="true">↗</span></button>
+  </header>
+  <main id="app" tabindex="-1"><p class="loading">QBTI 正在就位…</p></main>
+  <div id="notice" role="status" aria-live="polite"></div>
+  <noscript>请允许本地 JavaScript 运行后重新打开，答题和计分都在本机完成。</noscript>
+  <script src="./assets/data.js"></script>
+  <script src="./assets/engine.js"></script>
+  <script src="./assets/characters.js"></script>
+  <script src="./assets/app.js"></script>
+</body>
+</html>
